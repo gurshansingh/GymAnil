@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "806421269291",
+    "project_id": "anilgym-e4fde",
+    "storage_bucket": "anilgym-e4fde.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806421269291:android:be3be44251307b949d936e",
+        "android_client_info": {
+          "package_name": "com.anilgym"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARDgq3baQIE4Z9iCARudBq0t0aZN9vA7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
