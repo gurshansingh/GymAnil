@@ -2,6 +2,7 @@ import {View, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {StyleSheet} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
+import {colorPallete} from '../screens/Dashboard/style';
 
 const DashboardCard = ({item, navigation}: any) => {
   return (
@@ -11,7 +12,7 @@ const DashboardCard = ({item, navigation}: any) => {
       <LinearGradient
         end={{x: 1, y: 0.55}}
         start={{x: 0.55, y: 1.0}}
-        colors={['#8a80f6', '#98bdd4']}
+        colors={['#8a80f6', '#98bdd4', colorPallete.BEER]}
         style={styles.badge}>
         {/* <View > */}
         <Text style={styles.badgeText}>{item.value}</Text>

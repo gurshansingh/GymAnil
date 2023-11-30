@@ -1,6 +1,6 @@
 import {View, Text, StatusBar, FlatList} from 'react-native';
 import React from 'react';
-import {styles} from './style';
+import {colorPallete, styles} from './style';
 import {DashboardCard} from '../../components';
 import LinearGradient from 'react-native-linear-gradient';
 
@@ -33,7 +33,9 @@ const cardData = [
 ];
 const Dashboard = ({navigation}: any) => {
   return (
-    <LinearGradient colors={['#472151', '#000']} style={styles.mainContainer}>
+    <LinearGradient
+      colors={[colorPallete.CYBER_GRAPE, colorPallete.BEER]}
+      style={styles.mainContainer}>
       <StatusBar
         backgroundColor={'black'}
         translucent
