@@ -1,7 +1,4 @@
-import DashboardCard from "./DashboardCard";
-import Loader from "./Loader";
+import DashboardCard from './DashboardCard';
+import Loader from './Loader';
 
-export{
-    Loader,
-    DashboardCard
-}
+export {Loader, DashboardCard};
