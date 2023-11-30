@@ -11,7 +11,7 @@ import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import storage from '@react-native-firebase/storage';
 
-const OpenCamera = ({navigation}:any) => {
+const OpenCamera = ({navigation}: any) => {
   const [flash, setFlash] = useState<any>('on');
   const [uploadStatusTotal, setUploadStatusTotal] = useState(0);
   const [uploadStatus, setUploadStatus] = useState(0);
@@ -57,7 +57,7 @@ const OpenCamera = ({navigation}:any) => {
     <View style={{flex: 1}}>
       <Camera
         ref={camera}
-        style={startUpload==true ? {} : StyleSheet.absoluteFill}
+        style={startUpload == true ? {} : StyleSheet.absoluteFill}
         device={device}
         isActive={true}
         photo={true}
@@ -99,18 +99,18 @@ const OpenCamera = ({navigation}:any) => {
           />
         </TouchableOpacity>
       </View>
-      {startUpload==true ? (
+      {startUpload == true ? (
         <View
           style={{
-            zIndex:10000,
+            zIndex: 10000,
             position: 'absolute',
             flex: 1,
             bottom: 0,
             top: 0,
             left: 0,
             right: 0,
-            justifyContent:'center',
-            backgroundColor:'#0c8ce9'
+            justifyContent: 'center',
+            backgroundColor: '#0c8ce9',
           }}>
           <View
             style={{

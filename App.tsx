@@ -1,5 +1,5 @@
-import React from 'react'
-import { NavigationContainer } from '@react-navigation/native';
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
 import MainNavigation from './src/navigation';
 
 const App = () => {
@@ -7,8 +7,8 @@ const App = () => {
     <NavigationContainer>
       <MainNavigation />
     </NavigationContainer>
-  )
-}
+  );
+};
 
 export default App;
 
@@ -27,7 +27,7 @@ export default App;
 //     getPermission();
 //   },[])
 //   const device = useCameraDevice('back');
-//   if (device == null) return <View><Text>Harjinder</Text></View> 
+//   if (device == null) return <View><Text>Harjinder</Text></View>
 //   return (
 //     <Camera
 //       style={StyleSheet.absoluteFill}
